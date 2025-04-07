@@ -6,7 +6,7 @@ TaskMaster es una aplicación diseñada para mejorar la productividad, permitien
 manera eficiente. Con esta herramienta, los usuarios pueden organizar sus actividades diarias de
 manera sencilla y eficaz.
 
-## Características
+## **Características**
 
  - ✔️ Creación y edición de tareas.
 - 📅 Asignación de fechas límite y prioridades.
@@ -16,4 +16,9 @@ manera sencilla y eficaz.
 - ✅ Marcar tareas como completadas.
 - 🔔 Notificaciones y recordatorios automáticos.
 - 📊 Visualización en lista y tablero Kanban.
+
+## **Instalación**
+
+Para instalar y ejecutar la aplicación, sigue los siguientes pasos:
+```java public class HolaMundo { public static void main(String[] args) { System.out.println("Hola Mundo"); } } ```
 
