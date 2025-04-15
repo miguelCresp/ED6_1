@@ -8,14 +8,14 @@ manera sencilla y eficaz.
 
 ## **Características**
 
-- ✔️ Creación y edición de tareas.
-- 📅 Asignación de fechas límite y prioridades.
+- :heavy_check_mark: Creación y edición de tareas.
+- :date: Asignación de fechas límite y prioridades.
   - Prioridad baja, media y alta.
   - Fechas límite personalizadas con control de calendario.
-- Organización en categorías y etiquetas.
-- ✅ Marcar tareas como completadas.
-- 🔔 Notificaciones y recordatorios automáticos.
-- 📊 Visualización en lista y tablero Kanban.
+- :file_folder: Organización en categorías y etiquetas.
+- :white_check_mark: Marcar tareas como completadas.
+- :bell: Notificaciones y recordatorios automáticos.
+- :bar_chart: Visualización en lista y tablero Kanban.
 
 ## **Instalación**
 
@@ -73,10 +73,10 @@ classDiagram
    + eliminarTarea(tarea: Tarea) : void
    } 
   class Tarea {
-    - titulo: String
-    - prioridad: String
-    - completada: Boolean
-    + marcarComoCompletada() : void
+   - titulo: String
+   - prioridad: String
+   - completada: Boolean
+   + marcarComoCompletada() : void
   }
   Usuario "1" --> "*" Tarea  : asigna 
 ```
@@ -99,7 +99,7 @@ Para registrar una nueva tarea, sigue estos pasos:
 
 Si deseas que el título de la tarea sea visible en negrita, escríbelo entre dobles asteriscos: \*\*Título de la Tarea\*\*.
 
-**Historial de versiones**
+## **Historial de versiones**
 
 En la siguiente tabla se muestran las versiones publicadas de la aplicación:
 
@@ -109,11 +109,15 @@ En la siguiente tabla se muestran las versiones publicadas de la aplicación:
 | 1.1.0 | 15/01/2024 | Nuevas funcionalidades |
 | 1.1.1 | 30/01/2024 | Corrección de errores |
 | 1.2.0 | 15/02/2024 | Mejoras de rendimiento |
-| 2.0.0 | 15/03/2024 | Corrección de errores |
-| 2.1.0 | 30/03/2024 | Mejoras de usabilidad |
-| 2.2.0 | 15/04/2024 | Nuevas funcionalidades |
-| 2.3.0 | 30/04/2024 | ekrfhweK |
+| 2.0.0 | 15/03/2024 | Versión estable |
+| 2.1.0 | 30/03/2024 | Corrección de errores |
+| 2.2.0 | 15/04/2024 | Mejoras de usabilidad |
+| 2.3.0 | 30/04/2024 | Nuevas funcionalidades |
 
 ## **Créditos**
 
-Desarrollado por [Miguel]()
+Desarrollado por [Miguel](https://github.com/miguelCresp)
+
+## **Licencia**
+
+Este proyecto está bajo la Licencia MIT.
